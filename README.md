@@ -7,7 +7,7 @@ real-world academic performance monitoring system. Built with Python,
 PostgreSQL, and Streamlit, it demonstrates an end-to-end data pipeline 
 from raw CSV ingestion to an interactive browser-based dashboard.
 
-## 🔍 What This Project Does
+##  What This Project Does
 - Ingests raw student and grade data from CSV files
 - Cleans, validates, and transforms data using Pandas
 - Stores structured data in a relational PostgreSQL database
@@ -15,7 +15,7 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 - Presents results on a live, interactive Streamlit dashboard with 
   Plotly visualizations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Layer        | Technology                        |
 |--------------|-----------------------------------|
 | Language     | Python 3.x                        |
@@ -24,13 +24,13 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 | Dashboard    | Streamlit + Plotly                |
 | Config       | python-dotenv                     |
 
-## 📊 Dashboard Features
+##  Dashboard Features
 - KPI summary cards (total departments, overall average, at-risk count)
 - Department-wise average score bar chart with color scale
 - Top 3 students per subject with subject filter dropdown
 - At-risk student detection with a live adjustable threshold slider
 
-## 🏗️ Architecture
+##  Architecture
 CSV Data → [Extract] → [Transform] → [Load] → PostgreSQL
                       
 ↓
