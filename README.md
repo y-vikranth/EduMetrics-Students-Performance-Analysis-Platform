@@ -82,7 +82,7 @@ edumetrics/
 
 └── main.py             # ETL entry point
 
-## 💡 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 - ETL pipeline design
 - Relational database schema design (foreign keys, normalization)
 - Advanced SQL (CTEs, Window Functions, GROUP BY, HAVING)
