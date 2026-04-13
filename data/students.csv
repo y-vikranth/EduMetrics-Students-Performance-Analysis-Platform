@@ -1,9 +1,0 @@
-student_id,name,age,gender,department,subject,score,semester,exam_date
-1,Alice,20,F,CS,Math,88,Sem1,2024-01-15
-1,Alice,20,F,CS,Physics,76,Sem1,2024-01-16
-2,Bob,21,M,ECE,Math,55,Sem1,2024-01-15
-2,Bob,21,M,ECE,Physics,49,Sem1,2024-01-16
-3,Clara,22,F,CS,Math,95,Sem1,2024-01-15
-3,Clara,22,F,CS,Physics,91,Sem1,2024-01-16
-4,David,20,M,ME,Math,40,Sem1,2024-01-15
-4,David,20,M,ME,Physics,38,Sem1,2024-01-16
