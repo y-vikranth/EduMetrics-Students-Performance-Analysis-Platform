@@ -1,5 +1,3 @@
-# EduMetrics-Students-Performance-Analysis-Platform
-End-to-end student performance analytics platform built with Python,  PostgreSQL &amp; Streamlit. Features an ETL pipeline (Pandas), advanced SQL  queries (CTEs, Window Functions), and an interactive browser dashboard  with Plotly visualizations. Demonstrates real-world data engineering  and analytics workflows.
 # EduMetrics — Student Performance Analytics Platform
 
 A full-stack data engineering and analytics project that simulates a 
@@ -7,7 +5,7 @@ real-world academic performance monitoring system. Built with Python,
 PostgreSQL, and Streamlit, it demonstrates an end-to-end data pipeline 
 from raw CSV ingestion to an interactive browser-based dashboard.
 
-##  What This Project Does
+## 🔍 What This Project Does
 - Ingests raw student and grade data from CSV files
 - Cleans, validates, and transforms data using Pandas
 - Stores structured data in a relational PostgreSQL database
@@ -15,7 +13,7 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 - Presents results on a live, interactive Streamlit dashboard with 
   Plotly visualizations
 
-##  Tech Stack
+## 🛠️ Tech Stack
 | Layer        | Technology                        |
 |--------------|-----------------------------------|
 | Language     | Python 3.x                        |
@@ -24,13 +22,13 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 | Dashboard    | Streamlit + Plotly                |
 | Config       | python-dotenv                     |
 
-##  Dashboard Features
+## 📊 Dashboard Features
 - KPI summary cards (total departments, overall average, at-risk count)
 - Department-wise average score bar chart with color scale
 - Top 3 students per subject with subject filter dropdown
 - At-risk student detection with a live adjustable threshold slider
 
-##  Architecture
+## 🏗️ Architecture
 CSV Data → [Extract] → [Transform] → [Load] → PostgreSQL
                       
 ↓
@@ -82,7 +80,7 @@ edumetrics/
 
 └── main.py             # ETL entry point
 
-##  Key Concepts Demonstrated
+## 💡 Key Concepts Demonstrated
 - ETL pipeline design
 - Relational database schema design (foreign keys, normalization)
 - Advanced SQL (CTEs, Window Functions, GROUP BY, HAVING)
