@@ -28,6 +28,9 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 - Top 3 students per subject with subject filter dropdown
 - At-risk student detection with a live adjustable threshold slider
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d7c92778-7c00-4018-939f-bb67d6c3fc39" />
+
+
 ## 🏗️ Architecture
 CSV Data → [Extract] → [Transform] → [Load] → PostgreSQL
                       
@@ -48,8 +51,8 @@ Streamlit Dashboard
 ```
 3. Set up PostgreSQL and configure `.env`
 ```env
-   DB_USER=your_user
-   DB_PASSWORD=your_password
+   DB_USER=postgres
+   DB_PASSWORD=Vikranth
    DB_HOST=localhost
    DB_PORT=5432
    DB_NAME=student_db
