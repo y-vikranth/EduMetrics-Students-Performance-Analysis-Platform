@@ -25,10 +25,14 @@ from raw CSV ingestion to an interactive browser-based dashboard.
 ## 📊 Dashboard Features
 - KPI summary cards (total departments, overall average, at-risk count)
 - Department-wise average score bar chart with color scale
-- Top 3 students per subject with subject filter dropdown
-- At-risk student detection with a live adjustable threshold slider
-
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d7c92778-7c00-4018-939f-bb67d6c3fc39" />
+
+- Top 3 students per subject with subject filter dropdown
+<img width="1843" height="942" alt="image" src="https://github.com/user-attachments/assets/5823fb94-244e-4986-a3e8-46bb8fae1faa" />
+
+
+- At-risk student detection with a live adjustable threshold slider
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f4f4e8c0-a317-4ae0-a587-d79a4d71723a" />
 
 
 ## 🏗️ Architecture
